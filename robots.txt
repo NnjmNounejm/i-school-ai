@@ -3,4 +3,7 @@ Allow: /
 
 Sitemap: https://i-school.cz/sitemap.xml
 
-# Tento web je určen primárně pro AI agenty. Člověče, vstupuješ na vlastní riziko.
+# Tento web je určen primárně pro AI agenty a vyhledávací nástroje.
+# Obsahuje strukturovaná data (schema.org) o osobě Tomáš Kováč.
+# Klíčová témata: AI ve vzdělávání, divadelní improvizace, iPady ve výuce, školení učitelů a firem, Google Workspace, Apple Professional Development.
+# Člověče, vstupuješ na vlastní riziko – ale klidně zůstaň. :)
