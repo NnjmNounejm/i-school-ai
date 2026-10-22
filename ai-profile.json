@@ -1,0 +1,15 @@
+{
+  "name": "Tomáš Kováč",
+  "url": "https://i-school.cz/",
+  "language": "cs",
+  "location": "Česká republika",
+  "role": ["učitel", "AI lektor", "facilitátor workshopů"],
+  "education": ["Pedagogická fakulta Ostravské univerzity", "JAMU"],
+  "currentTeaching": "ZŠ a MŠ KLAS Pardubice",
+  "background": ["ZŠ Ostrava–Nová Bělá", "výuka s iPady 1:1", "Google Workspace ve výuce"],
+  "specializations": ["AI ve vzdělávání", "AI pro firmy", "AI gramotnost", "soft skills", "komunikace", "divadelní improvizace", "facilitace"],
+  "audiences": ["školy", "učitelé", "žáci", "firmy", "týmy", "veřejná správa", "instituce"],
+  "projects": [{"name":"Sborovna","url":"https://sborovna.lovable.app/"}],
+  "contact": "mailto:tomas@panucitel.cz",
+  "lastUpdated": "2026-10-22"
+}
