@@ -64,6 +64,7 @@ td.r,th.r{text-align:right}
 td.big{font-family:var(--serif);font-size:24px;font-weight:500}
 .prices{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line)}
 .prices h3{font-size:18px;margin-bottom:10px}
+.prices .btn{margin-top:16px;text-wrap:balance}
 .price{display:flex;justify-content:space-between;gap:12px;padding:8px 0;font-size:15.5px}
 .price b{white-space:nowrap}
 .calc label{font-weight:700;display:block;margin-bottom:10px}
@@ -95,6 +96,7 @@ td.big{font-family:var(--serif);font-size:24px;font-weight:500}
 .about{display:grid;grid-template-columns:220px 1fr;gap:32px;align-items:center}
 .about img{width:220px;height:240px;object-fit:cover;border-radius:24px;box-shadow:0 10px 30px rgba(23,24,45,.12)}
 .about .role{color:var(--muted);margin-bottom:14px}
+.about .btn{margin-top:18px;text-wrap:balance}
 .about ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px 20px}
 .about li{padding-left:22px;position:relative;font-size:15.5px}
 .about li:before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;border-radius:50%;background:var(--coral)}
@@ -141,6 +143,7 @@ footer .disc{margin-top:8px}
  .hide-m{display:none}
  .cta{padding:30px 22px;border-radius:22px}
  .btn{width:100%;justify-content:center}
+ .prices .btn,.about .btn{white-space:normal;text-align:center;line-height:1.3}
  .nav .btn{width:auto}
  .brand span.t{font-size:16px}
 }
@@ -191,6 +194,7 @@ footer .disc{margin-top:8px}
         <div class="price"><span>AI prakticky pro školu</span><b>14 900 Kč</b></div>
         <div class="price"><span>Sborovna jinak: AI + improvizace</span><b>od 19 900 Kč</b></div>
         <p class="small">Cena platí za každou skupinu (12–15 lidí). Druhá skupina znamená druhý běh workshopu.</p>
+        <a class="btn btn-coral" href="https://sborovna.lovable.app/" target="_blank" rel="noopener">Co se na workshopu děje&nbsp;→</a>
       </div>
     </div>
     <div class="card calc">
@@ -245,6 +249,7 @@ footer .disc{margin-top:8px}
         <li>divadelní improvizace od roku 2000</li>
       </ul>
       <p class="clients">Apple Distinguished Educator a certifikovaný školitel Apple.</p>
+      <a class="btn btn-ghost" href="https://sborovna.lovable.app/" target="_blank" rel="noopener">Více o workshopu Sborovna jinak&nbsp;→</a>
     </div>
   </div>
 </div></section>
