@@ -101,6 +101,13 @@ td.big{font-family:var(--serif);font-size:24px;font-weight:500}
 .about li{padding-left:22px;position:relative;font-size:15.5px}
 .about li:before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;border-radius:50%;background:var(--coral)}
 .clients{margin-top:16px;font-size:14.5px;color:var(--muted)}
+/* ohlasy */
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+.quote:last-child:nth-child(odd){grid-column:1 / -1;width:calc(50% - 8px);justify-self:center}
+.quote{margin:0;min-width:0;height:100%;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+.quote blockquote{margin:0;quotes:none;font-family:var(--serif);font-weight:500;font-style:italic;font-size:clamp(18px,2vw,22px);line-height:1.35;letter-spacing:-.015em}
+.quote blockquote::before,.quote blockquote::after{content:none}
+.quote figcaption{font-size:14.5px;font-weight:600;font-style:normal;color:var(--muted)}
 /* faq */
 details{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 22px;margin-bottom:12px}
 summary{cursor:pointer;font-family:var(--serif);font-size:20px;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:16px}
@@ -138,6 +145,8 @@ footer .disc{margin-top:8px}
  .about{grid-template-columns:1fr;gap:20px}
  .about img{width:120px;height:130px;border-radius:20px}
  .about ul{grid-template-columns:1fr}
+ .quotes{grid-template-columns:1fr}
+ .quote:last-child:nth-child(odd){grid-column:auto;width:auto;justify-self:stretch}
  .card{padding:20px}
  td.big{font-size:20px}
  .hide-m{display:none}
@@ -263,6 +272,33 @@ footer .disc{margin-top:8px}
   <details><summary>Co když nás bude víc než 15?</summary><p>Ideální skupina má 12–15 lidí, aby si každý všechno sám vyzkoušel. Větší sborovnu rozdělím na dvě skupiny, tedy dva běhy workshopu. Cena platí za každou skupinu.</p></details>
   <details><summary>Spadá improvizace pod šablonu?</summary><p>Umělá inteligence a digitální kompetence jsou mezi tématy uvedeny výslovně. Improvizace může spadat pod well-being nebo metody a formy vzdělávání. O zařazení rozhoduje ředitel jako příjemce dotace.</p></details>
   <details><summary>Do kdy je potřeba workshop uskutečnit?</summary><p>Projekty Šablony pro MŠ a ZŠ II (výzva 02_24_034) běží nejpozději do 31. 12. 2028. Workshop se musí vejít do doby realizace vašeho projektu.</p></details>
+</div></section>
+
+<section id="ohlasy" aria-labelledby="ohlasy-title"><div class="wrap">
+  <span class="eyebrow">Reference</span>
+  <h2 id="ohlasy-title">Co říkají učitelé po workshopu</h2>
+  <div class="quotes">
+    <figure class="card quote">
+      <blockquote>„Nadšení zařadit impro do hodin, touha provokovat děti a přivést je k řešení konfliktů ve třídě pomocí impra.“</blockquote>
+      <figcaption>Účastník workshopu</figcaption>
+    </figure>
+    <figure class="card quote">
+      <blockquote>„Spoustu nových technik a nápadů, které se dají hned použít s dětmi ve třídě i mimo ni.“</blockquote>
+      <figcaption>ZŠ Vida</figcaption>
+    </figure>
+    <figure class="card quote">
+      <blockquote>„Bylo to na mě rychlé, zároveň jsem díky tomu vymyslela víc zajímavých věcí. Asi mi to pomohlo se víc odvázat a vžít se do role. I když jsem byla zásuvka. Děkuju!“</blockquote>
+      <figcaption>Vendula Dvořáčková, ZŠ Jungmannova Kuřim</figcaption>
+    </figure>
+    <figure class="card quote">
+      <blockquote>„Osobní radost a uvolnění a cestu, jak rozproudit a zapojit děti.“</blockquote>
+      <figcaption>ZŠ Křídlovická, Brno</figcaption>
+    </figure>
+    <figure class="card quote">
+      <blockquote>„Nemít strach, chyby nejsou chyby.“</blockquote>
+      <figcaption>Účastník workshopu</figcaption>
+    </figure>
+  </div>
 </div></section>
 
 <section id="kontakt"><div class="wrap">
