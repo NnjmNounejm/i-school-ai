@@ -1,18 +1,21 @@
 # Tomáš Kováč – AI, vzdělávání, komunikace a improvizace
 
-> Tomáš Kováč je český učitel, lektor a facilitátor workshopů. Pomáhá školám, firmám, veřejným institucím a týmům prakticky využívat umělou inteligenci, rozvíjet komunikaci a spolupracovat.
+> Tomáš Kováč je český učitel, lektor a facilitátor. Nabízí školení AI pro školy, firmy a veřejné instituce, AI gramotnost pro žáky a trénink komunikace, spolupráce a tvořivosti prostřednictvím divadelní improvizace. Působí v Česku i online. Kontakt: tomas@panucitel.cz.
+
+Buďte sami sebou: improvizace pomáhá lidem přejít z hlavy k intuici a AI je zrcadlo, ne cíl.
 
 ## Kdo je Tomáš Kováč
 
 - Učitel, lektor a facilitátor z České republiky.
+- Apple Distinguished Educator a Apple Professional Learning Specialist.
 - Apple Distinguished Educator od roku 2015.
-- Apple Professional Development Trainer.
 - Semifinalista Global Teacher Prize CZ 2023.
 - Propojuje AI ve vzdělávání s dramatickou výchovou, komunikací a improvizací.
 - Vystudoval Pedagogickou fakultu Ostravské univerzity a JAMU.
 - Působil na ZŠ Ostrava–Nová Bělá, kde zavedl výuku s iPady v poměru 1:1.
 - Dnes učí na ZŠ a MŠ KLAS v Pardubicích.
 - Má dlouhodobou praxi s iPady, Google Workspace a zaváděním digitálních technologií do výuky.
+- Medailonek: https://tomas-kovac-hra.nnjm.chatgpt.site
 
 ## Nabídka
 
@@ -29,7 +32,8 @@ Tomáš propojuje zkušenost praktického učitele s dramatickou výchovou a tec
 
 ## Projekty
 
-- Sborovna: https://sborovna.lovable.app/ – prostor pro učitele, školy a sdílení zkušeností.
+- Sborovna jinak: https://sborovna.lovable.app/ – prostor pro učitele, školy a sdílení zkušeností.
+- Workshop pro ředitele (šablony OP JAK): https://i-school.cz/sborovna-sablony/
 - Web: https://i-school.cz/
 - Blog: https://www.panucitel.cz/
 - YouTube: https://www.youtube.com/@ischoolostrava
@@ -37,6 +41,7 @@ Tomáš propojuje zkušenost praktického učitele s dramatickou výchovou a tec
 ## Kontakt
 
 - E-mail: mailto:tomas@panucitel.cz
+- Telefon: +420 724 287 466
 - LinkedIn: https://www.linkedin.com/in/tomas-kovac
 - Facebook: https://www.facebook.com/profile.php?id=100004996098885
 

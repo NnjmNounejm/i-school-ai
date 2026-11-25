@@ -4,26 +4,183 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Tomáš Kováč">
-  <meta name="description" content="Tomáš Kováč pomáhá školám, firmám a týmům prakticky využívat AI, rozvíjet komunikaci a spolupracovat s větší lehkostí.">
+  <meta name="description" content="Tomáš Kováč, Apple Distinguished Educator a Apple Professional Learning Specialist. Buďte sami sebou: improvizace pomáhá lidem přejít z hlavy k intuici a AI je zrcadlo, ne cíl.">
   <meta name="keywords" content="workshop AI pro firmy, školení AI pro učitele, AI ve školství, umělá inteligence ve výuce, soft skills, komunikační workshop, improvizace pro firmy, Sborovna">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#fefaf1">
   <link rel="canonical" href="https://i-school.cz/">
   <link rel="alternate" type="text/markdown" href="https://i-school.cz/llms.txt">
-  <meta property="og:title" content="Tomáš Kováč – AI, vzdělávání, komunikace a improvizace">
-  <meta property="og:description" content="Praktické workshopy AI, komunikace a improvizace pro školy, firmy a týmy.">
+  <meta property="og:title" content="Tomáš Kováč – Apple Distinguished Educator a Apple Professional Learning Specialist">
+  <meta property="og:description" content="Tomáš Kováč, Apple Distinguished Educator a Apple Professional Learning Specialist. Buďte sami sebou: improvizace pomáhá lidem přejít z hlavy k intuici a AI je zrcadlo, ne cíl.">
   <meta property="og:url" content="https://i-school.cz/">
   <meta property="og:type" content="profile">
-  <title>Tomáš Kováč – AI, vzdělávání, komunikace a improvizace</title>
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:site_name" content="i-school.cz">
+  <meta property="og:image" content="https://i-school.cz/og.jpg">
+  <meta property="og:image:secure_url" content="https://i-school.cz/og.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Tomáš Kováč, Apple Distinguished Educator a Apple Professional Learning Specialist">
+  <meta property="og:profile:first_name" content="Tomáš">
+  <meta property="og:profile:last_name" content="Kováč">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tomáš Kováč – Apple Distinguished Educator a Apple Professional Learning Specialist">
+  <meta name="twitter:description" content="Tomáš Kováč, Apple Distinguished Educator a Apple Professional Learning Specialist. Buďte sami sebou: improvizace pomáhá lidem přejít z hlavy k intuici a AI je zrcadlo, ne cíl.">
+  <meta name="twitter:image" content="https://i-school.cz/og.jpg">
+  <meta name="twitter:image:alt" content="Tomáš Kováč, Apple Distinguished Educator a Apple Professional Learning Specialist">
+  <title>Tomáš Kováč – Apple Distinguished Educator a Apple Professional Learning Specialist</title>
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    @font-face{font-family:"Fraunces";src:url("/fonts/fraunces.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+    @font-face{font-family:"Fraunces";src:url("/fonts/fraunces-italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
+    @font-face{font-family:"Plus Jakarta Sans";src:url("/fonts/plus-jakarta-sans.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+    :root{
+      --cream:#fefaf1;--navy:#17182d;--coral:#f26644;--coral-d:#d9502f;--coral-ink:#c5320e;
+      --muted:#525466;--line:#e6dfcf;--butter:#f8e8ab;--lav:#ccc5ff;--card:#fffdf8;
+      --serif:"Fraunces",Georgia,"Times New Roman",serif;
+      --sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+      --max:1080px
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:var(--sans);color:var(--navy);background:var(--cream);line-height:1.55;font-size:17px;-webkit-font-smoothing:antialiased}
+    body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+      radial-gradient(42rem 34rem at -8% -6%,rgba(248,232,171,.85),transparent 70%),
+      radial-gradient(40rem 36rem at 108% 104%,rgba(204,197,255,.55),transparent 70%),
+      radial-gradient(26rem 22rem at 92% -4%,rgba(242,102,68,.10),transparent 70%)}
+    img{max-width:100%;height:auto}
+    a{color:inherit}
+    :focus{outline:none}
+    :focus-visible{outline:3px solid var(--coral-ink);outline-offset:3px}
+    .skip{position:absolute;left:12px;top:-48px;z-index:40;background:var(--navy);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none}
+    .skip:focus{top:12px}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+    h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.015em;line-height:1.14;text-wrap:balance}
+    h1{font-size:clamp(30px,4vw,46px);margin:0}
+    h1 em{font-style:italic;font-weight:500;color:var(--coral-ink)}
+    h2{font-size:clamp(28px,4vw,40px);margin:0 0 14px}
+    h3{font-size:clamp(22px,2.4vw,28px);margin:0 0 10px}
+    p{margin:0 0 12px}
+    section{padding:64px 0}
+    section,[id]{scroll-margin-top:96px}
+    .eyebrow{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--coral-ink);background:rgba(242,102,68,.10);padding:6px 12px;border-radius:999px;margin:0 0 16px}
+    .lead{color:var(--muted);font-size:18px;max-width:40rem}
+    .nav{position:sticky;top:0;z-index:20;padding:12px 0 0}
+    .nav-in{display:flex;align-items:center;justify-content:space-between;gap:10px 18px;flex-wrap:wrap;background:rgba(255,253,248,.92);backdrop-filter:blur(10px);border:1px solid rgba(23,24,45,.06);box-shadow:0 6px 24px rgba(23,24,45,.06);border-radius:28px;padding:8px 10px 8px 14px}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--serif);font-weight:600;font-size:18px;min-height:44px}
+    .logo{width:34px;height:34px;border-radius:50%;background:var(--coral-ink);color:#fff;display:grid;place-items:center;font-family:var(--serif);font-size:18px;font-weight:600}
+    nav ul{display:flex;flex-wrap:wrap;gap:2px 4px;list-style:none;padding:0;margin:0}
+    nav a{display:inline-flex;align-items:center;min-height:44px;padding:6px 10px;text-decoration:none;font-weight:600;font-size:15px;border-radius:999px}
+    nav a:hover{background:rgba(23,24,45,.04)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:650;border-radius:999px;padding:14px 22px;font-size:16px;line-height:1.2;border:1px solid transparent;transition:background .15s,transform .15s}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-coral{background:var(--coral-ink);color:#fff}
+    .btn-coral:hover{background:#ae2c0c}
+    .btn-ghost{background:#fff;color:var(--navy);border-color:var(--line)}
+    .btn-ghost:hover{border-color:#cfc6b2}
+    .btn-sm{padding:10px 16px;font-size:14.5px;min-height:44px}
+    .hero{padding:36px 0 28px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr);gap:48px;align-items:center}
+    .hero-photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 18%;border-radius:28px;box-shadow:0 18px 44px rgba(23,24,45,.14)}
+    .who{margin:18px 0 0;color:var(--muted);font-size:17px}
+    .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+    .paths{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 4px 18px rgba(23,24,45,.04)}
+    .path{display:flex;flex-direction:column;min-width:0}
+    .path-school{background:linear-gradient(180deg,#f4f1ff 0%,var(--card) 42%)}
+    .path-firm{background:linear-gradient(180deg,#fff6d6 0%,var(--card) 42%)}
+    .path p{color:var(--navy)}
+    .path .detail{color:var(--muted);font-size:15.5px;margin-top:14px}
+    .dests{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+    .dest{display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;font-weight:650;line-height:1.35;min-height:52px;min-width:0}
+    .dest:hover{border-color:var(--coral-ink)}
+    .also{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .also p,.grid p{color:var(--muted);margin:0}
+    .about-top{max-width:44rem}
+    .credential{font-family:var(--serif);font-size:clamp(20px,2.4vw,26px);line-height:1.3;margin:18px 0 6px}
+    .since{color:var(--muted);margin:0 0 8px}
+    .proof{display:flex;flex-wrap:wrap;gap:18px 36px;list-style:none;padding:8px 0 0;margin:8px 0 22px}
+    .proof strong{display:block;font-family:var(--serif);font-weight:500;font-size:1.7rem;line-height:1.1}
+    .proof span{color:var(--muted);font-size:.95rem}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+    .card a:not(.btn):not(.dest){text-decoration:underline;text-underline-offset:3px}
+    .quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+    .quote:last-child:nth-child(odd){grid-column:1 / -1;width:calc(50% - 8px);justify-self:center}
+    .quote{margin:0;min-width:0;height:100%;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+    .quote blockquote{margin:0;quotes:none;font-family:var(--serif);font-weight:500;font-style:italic;font-size:clamp(18px,2vw,22px);line-height:1.35;letter-spacing:-.015em}
+    .quote blockquote::before,.quote blockquote::after{content:none}
+    .quote figcaption{font-size:14.5px;font-weight:600;font-style:normal;color:var(--muted)}
+    .steps{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:0;margin:22px 0 0}
+    .steps li{counter-increment:step;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 4px 18px rgba(23,24,45,.04)}
+    .steps li::before{content:counter(step);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--butter);font-weight:700;margin-bottom:12px}
+    .steps p{color:var(--muted);margin:0}
+    .contact-band{padding-top:12px}
+    .cta{background:var(--navy);color:#fff;border-radius:28px;padding:44px;position:relative;overflow:hidden}
+    .cta:before{content:"";position:absolute;width:420px;height:420px;right:-120px;top:-160px;background:radial-gradient(circle,rgba(242,102,68,.45),transparent 65%)}
+    .cta:after{content:"";position:absolute;width:380px;height:380px;left:-140px;bottom:-200px;background:radial-gradient(circle,rgba(204,197,255,.28),transparent 65%)}
+    .cta>*{position:relative;z-index:1}
+    .cta h2{color:#fff}
+    .cta p{color:rgba(255,255,255,.88);max-width:40rem}
+    .cta .eyebrow{color:#fff;background:rgba(242,102,68,.35)}
+    .cta .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}
+    .cta .btn-ghost:hover{border-color:#fff}
+    .social{margin:18px 0 0;font-size:15.5px}
+    .social a{text-decoration:underline;text-underline-offset:3px}
+    footer{padding:8px 0 40px;color:var(--muted);font-size:14px}
+    footer a{text-decoration:underline;text-underline-offset:3px}
+    @media (max-width:860px){
+      .nav-in{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:12px;row-gap:2px}
+      .nav-in > .brand{grid-column:1;grid-row:1}
+      .nav-in > .btn{grid-column:2;grid-row:1;justify-self:end}
+      .nav-in > nav{grid-column:1 / -1;grid-row:2}
+      .hero-grid,.paths,.also,.grid,.steps{grid-template-columns:1fr}
+      .hero{padding:20px 0 4px}
+      .hero-grid{gap:16px}
+      .hero-photo{order:-1;width:168px;border-radius:24px}
+      .who{margin-top:12px}
+      .ctas{margin-top:16px}
+      section{padding:48px 0}
+      .quote:last-child:nth-child(odd){grid-column:auto;width:auto;justify-self:stretch}
+      .quotes{grid-template-columns:1fr}
+      .cta{padding:30px 22px;border-radius:22px}
+    }
+    @media (max-width:700px){
+      body{font-size:16px}
+      .hero .btn,.path .dest,.about-top .btn,.cta .btn{width:100%}
+      .nav .btn{width:auto}
+      .card{padding:20px}
+    }
+    @media (prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      .btn{transition:none}
+      .btn:hover{transform:none}
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"Person",
     "name":"Tomáš Kováč",
     "url":"https://i-school.cz/",
+    "image":"https://i-school.cz/sborovna-sablony/tomas.jpg",
     "email":"tomas@panucitel.cz",
+    "telephone":"+420724287466",
     "jobTitle":"Učitel, lektor a facilitátor",
-    "description":"Pedagog, lektor a facilitátor workshopů AI, komunikace a divadelní improvizace.",
-    "sameAs":["https://www.youtube.com/@ischoolostrava","https://www.facebook.com/profile.php?id=100004996098885"],
+    "award":"Apple Distinguished Educator a Apple Professional Learning Specialist",
+    "hasCredential":{
+      "@type":"EducationalOccupationalCredential",
+      "name":"Apple Distinguished Educator a Apple Professional Learning Specialist"
+    },
+    "description":"Pedagog, lektor a facilitátor workshopů AI, komunikace a divadelní improvizace. Apple Distinguished Educator a Apple Professional Learning Specialist.",
+    "sameAs":[
+      "https://tomas-kovac-hra.nnjm.chatgpt.site",
+      "https://www.youtube.com/@ischoolostrava",
+      "https://www.facebook.com/profile.php?id=100004996098885",
+      "https://www.linkedin.com/in/tomas-kovac",
+      "https://www.panucitel.cz"
+    ],
     "knowsAbout":["AI ve vzdělávání","AI pro firmy","AI gramotnost","soft skills","komunikace","divadelní improvizace","facilitace workshopů"],
     "worksFor":{"@type":"Organization","name":"iSchool"},
     "hasOfferCatalog":{"@type":"OfferCatalog","name":"Workshopy a školení","itemListElement":[
@@ -33,45 +190,197 @@
     ]}
   }
   </script>
-  <style>
-    :root{--ink:#17202a;--muted:#5b6875;--paper:#fffdf8;--blue:#165dff;--yellow:#ffd84d;--line:#e8e3d8;--max:1080px}
-    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--paper);font:17px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    a{color:inherit} .wrap{max-width:var(--max);margin:auto;padding:0 24px} header{padding:20px 0;border-bottom:1px solid var(--line);background:#fff}
-    nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;text-decoration:none;letter-spacing:-.03em}.brand span{color:var(--blue)} nav ul{display:flex;gap:22px;list-style:none;padding:0;margin:0;font-size:.92rem}nav a{text-decoration:none}nav a:hover{text-decoration:underline}
-    .hero{padding:86px 0 70px;background:linear-gradient(120deg,#fffdf8 40%,#eef3ff)}.eyebrow{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}.hero h1{font-size:clamp(2.5rem,7vw,5.4rem);line-height:1.02;letter-spacing:-.065em;max-width:850px;margin:16px 0 24px}.hero p{font-size:1.25rem;max-width:720px;color:var(--muted);margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-block;padding:12px 18px;border-radius:8px;background:var(--blue);color:white;text-decoration:none;font-weight:750}.button.alt{background:transparent;color:var(--ink);border:1px solid var(--ink)}
-    section{padding:72px 0;border-bottom:1px solid var(--line)}h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.045em;margin:0 0 14px}h3{font-size:1.35rem;line-height:1.2;margin:0 0 10px}.lead{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}.card p{color:var(--muted);margin-bottom:0}.tag{display:inline-block;background:var(--yellow);padding:3px 10px;border-radius:999px;font-size:.8rem;font-weight:800;margin-bottom:15px}.feature{background:#17202a;color:#fff;border-radius:18px;padding:36px;display:grid;grid-template-columns:1.4fr 1fr;gap:30px;align-items:center}.feature p{color:#d8e0e8}.feature a{color:#fff}.feature .actions{margin-top:8px}.feature .actions .button{white-space:normal;max-width:100%;text-align:center}.proof{display:flex;gap:35px;flex-wrap:wrap;margin-top:28px}.proof strong{display:block;font-size:1.7rem}.proof span{color:var(--muted);font-size:.9rem}.steps{counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--yellow);font-weight:800;margin-bottom:14px}.contact{background:#eaf0ff}.contact a.button{margin-top:15px}footer{padding:30px 0;color:var(--muted);font-size:.9rem}
-    @media(max-width:760px){nav{flex-wrap:wrap;align-items:flex-start;row-gap:12px}nav ul{flex:1 1 100%;display:grid;grid-template-columns:max-content max-content;justify-content:start;column-gap:28px;row-gap:2px;font-size:.95rem}nav ul a{display:inline-block;padding:6px 0}.hero{padding:55px 0}.grid,.steps,.feature{grid-template-columns:1fr}.feature{padding:25px}section{padding:52px 0}}
-    .quotes{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}.quote:last-child:nth-child(odd){grid-column:1 / -1;width:calc(50% - 9px);justify-self:center}.quote{margin:0;min-width:0;height:100%;display:flex;flex-direction:column;justify-content:space-between;gap:16px}.quote blockquote{margin:0;quotes:none;font-size:1.12rem;line-height:1.45;letter-spacing:-.02em}.quote blockquote::before,.quote blockquote::after{content:none}.quote figcaption{color:var(--muted);font-weight:700;font-size:.92rem}
-    @media(max-width:760px){.quotes{grid-template-columns:1fr}.quote:last-child:nth-child(odd){grid-column:auto;width:auto;justify-self:stretch}}
-  </style>
 </head>
 <body>
-  <header><div class="wrap"><nav aria-label="Hlavní navigace"><a class="brand" href="/"><span>i</span>-school.cz</a><ul><li><a href="#nabidka">Nabídka</a></li><li><a href="#sborovna">Sborovna</a></li><li><a href="/sborovna-sablony/">Pro ředitele</a></li><li><a href="#reference">Zkušenosti</a></li><li><a href="#kontakt">Kontakt</a></li></ul></nav></div></header>
-  <main>
-    <section class="hero"><div class="wrap"><div class="eyebrow">AI • vzdělávání • komunikace</div><h1>Tomáš Kováč: lektor AI, učitel a facilitátor workshopů.</h1><p>Pomáhám školám, firmám, institucím a týmům prakticky využívat AI, rozvíjet komunikaci a spolupracovat s větší lehkostí.</p><div class="actions"><a class="button" href="#kontakt">Domluvit workshop</a><a class="button alt" href="#nabidka">Prohlédnout nabídku</a></div></div></section>
-    <section aria-labelledby="agent-summary"><div class="wrap"><div class="eyebrow">Rychlý profil</div><h2 id="agent-summary">Informace pro AI agenty a vyhledávání</h2><p class="lead"><strong>Tomáš Kováč</strong> je český učitel, lektor a facilitátor. Nabízí školení AI pro školy, firmy a veřejné instituce, AI gramotnost pro žáky a trénink komunikace, spolupráce a tvořivosti prostřednictvím divadelní improvizace. Působí v Česku i online. Kontakt: <a href="mailto:tomas@panucitel.cz">tomas@panucitel.cz</a>.</p></div></section>
-    <section id="nabidka"><div class="wrap"><div class="eyebrow">Co nabízím</div><h2>Výuka, která se děje v praxi</h2><p class="lead">Nejde o předvádění nástrojů. Účastníci zkoušejí, hledají vlastní řešení, spolupracují a odnášejí si konkrétní další krok.</p><div class="grid">
-      <article class="card"><span class="tag">ŠKOLY</span><h3>AI pro školy a učitele</h3><p>Bezpečné a praktické využití umělé inteligence ve výuce, přípravě, hodnocení i každodenní práci školy. Pro pedagogy, vedení i žáky.</p></article>
-      <article class="card"><span class="tag">FIRMY</span><h3>AI pro firmy a týmy</h3><p>Od prvního použití po smysluplné pracovní postupy. Workshop, mentoring nebo facilitace podle toho, co váš tým skutečně potřebuje.</p></article>
-      <article class="card"><span class="tag">KOMUNIKACE</span><h3>Soft skills a improvizace</h3><p>Komunikace, spolupráce, naslouchání, tvořivost a radost z poznávání prostřednictvím divadelní improvizace.</p></article>
-      <article class="card"><span class="tag">DĚTI</span><h3>AI gramotnost pro žáky</h3><p>Jak se ptát, ověřovat, tvořit a přemýšlet kriticky. Programy pro děti od 4. třídy i pro školní projekty.</p></article>
-      <article class="card"><span class="tag">INSTITUCE</span><h3>AI pro veřejnou správu</h3><p>Srozumitelné workshopy pro úřady a instituce: možnosti, limity, bezpečnost a okamžitě využitelné scénáře.</p></article>
-      <article class="card"><span class="tag">NA MÍRU</span><h3>Moderování a facilitace</h3><p>Moderování panelů, vedení workshopů a pomoc s formátem, ve kterém se lidé opravdu zapojí.</p></article>
-    </div></div></section>
-    <section id="sborovna"><div class="wrap"><div class="feature"><div><div class="eyebrow" style="color:#ffd84d">Samostatný projekt</div><h2>Sborovna</h2><p>Prostor pro učitele, školy a sdílení zkušeností. Sborovna propojuje praktickou inspiraci, kolegiální učení a chuť zkoušet nové věci bez strachu z chyby.</p><div class="actions"><a class="button" style="background:#ffd84d;color:#17202a" href="https://sborovna.lovable.app" target="_blank" rel="noopener">Navštívit sborovnu</a><a class="button" style="background:#fff;color:#17202a" href="/sborovna-sablony/">Pro ředitele: workshop ze šablon OP JAK</a></div></div><div><h3>Pro koho je?</h3><p>Pro pedagogy, kteří hledají nápady do výuky, bezpečné místo pro otázky a lidi, se kterými mohou sdílet, co funguje.</p></div></div></div></section>
-    <section id="reference"><div class="wrap"><div class="eyebrow">Zkušenosti</div><h2>Praxe místo velkých slov</h2><p class="lead">Tomáš Kováč je pedagog, lektor a facilitátor. Školil učitele, firmy i veřejné instituce a dlouhodobě propojuje technologie s dramatickou výchovou.</p><div class="proof"><div><strong>2015–</strong><span>Apple Distinguished Educator</span></div><div><strong>2023</strong><span>Semifinalista Global Teacher Prize CZ</span></div><div><strong>stovky</strong><span>proškolených pedagogů a zaměstnanců</span></div></div><div class="grid"><article class="card"><h3>Kde jsem působil</h3><p>Kofola, Česká spořitelna, Veolia, ČSOB, veřejná správa a školy napříč Českem.</p></article><article class="card"><h3>Co propojuji</h3><p>AI ve vzdělávání, kritické myšlení, iPady a digitální nástroje s komunikací a improvizací.</p></article><article class="card"><h3>Veřejné výstupy</h3><p><a href="https://www.panucitel.cz" target="_blank" rel="noopener">panucitel.cz</a> · <a href="https://www.youtube.com/@ischoolostrava" target="_blank" rel="noopener">YouTube iSchool Ostrava</a></p></article></div></div></section>
-    <section id="ohlasy" aria-labelledby="ohlasy-title"><div class="wrap"><div class="eyebrow">Reference</div><h2 id="ohlasy-title">Co říkají učitelé po workshopu</h2><div class="quotes">
-      <figure class="card quote"><blockquote>„Nadšení zařadit impro do hodin, touha provokovat děti a přivést je k řešení konfliktů ve třídě pomocí impra.“</blockquote><figcaption>Účastník workshopu</figcaption></figure>
-      <figure class="card quote"><blockquote>„Spoustu nových technik a nápadů, které se dají hned použít s dětmi ve třídě i mimo ni.“</blockquote><figcaption>ZŠ Vida</figcaption></figure>
-      <figure class="card quote"><blockquote>„Bylo to na mě rychlé, zároveň jsem díky tomu vymyslela víc zajímavých věcí. Asi mi to pomohlo se víc odvázat a vžít se do role. I když jsem byla zásuvka. Děkuju!“</blockquote><figcaption>Vendula Dvořáčková, ZŠ Jungmannova Kuřim</figcaption></figure>
-      <figure class="card quote"><blockquote>„Osobní radost a uvolnění a cestu, jak rozproudit a zapojit děti.“</blockquote><figcaption>ZŠ Křídlovická, Brno</figcaption></figure>
-      <figure class="card quote"><blockquote>„Nemít strach, chyby nejsou chyby.“</blockquote><figcaption>Účastník workshopu</figcaption></figure>
-    </div></div></section>
-    <section id="background"><div class="wrap"><div class="eyebrow">Kontext odbornosti</div><h2>Technologie od začátku propojuje s učením</h2><p class="lead">Tomáš vystudoval Pedagogickou fakultu Ostravské univerzity a JAMU. Působil jako učitel na ZŠ Ostrava–Nová Bělá, kde zavedl jednu z prvních výuk s iPady v poměru 1:1. Dnes učí na ZŠ a MŠ KLAS v Pardubicích.</p><div class="grid"><article class="card"><h3>Digitální vzdělávání</h3><p>Dlouhodobá zkušenost s iPady, Google Workspace a zaváděním digitálních technologií do běžné výuky.</p></article><article class="card"><h3>Výzkumné projekty</h3><p>Věnoval se také tomu, jak mohou děti pomocí technologií a kritického myšlení samostatně rozvíjet čtení a učení.</p></article><article class="card"><h3>Praxe učitele</h3><p>Školení staví na reálném provozu školy a týmu, ne na izolovaném předvádění nástrojů.</p></article></div></div></section>
-    <section><div class="wrap"><div class="eyebrow">Jak spolupráce probíhá</div><h2>Od otázky ke konkrétnímu kroku</h2><div class="steps"><div class="step"><h3>Krátký rozhovor</h3><p>Ujasníme si, koho školíte, co potřebuje a jak poznáte, že workshop pomohl.</p></div><div class="step"><h3>Formát na míru</h3><p>Navrhnu délku, program a míru praktického zkoušení. Od krátké inspirace po sérii setkání.</p></div><div class="step"><h3>Výstup do praxe</h3><p>Účastníci neodcházejí jen s poznámkami, ale s vlastním postupem, materiálem nebo dalším krokem.</p></div></div></div></section>
-    <section id="kontakt" class="contact"><div class="wrap"><div class="eyebrow">Kontakt</div><h2>Máte téma, které chcete posunout?</h2><p class="lead">Napište, zda zastupujete školu, firmu, tým nebo instituci a co byste chtěli změnit. Ozvu se s návrhem dalšího kroku.</p><a class="button" href="mailto:tomas@panucitel.cz?subject=Workshop%20na%20m%C3%ADru">tomas@panucitel.cz</a><p><a href="https://www.linkedin.com/in/tomas-kovac" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://www.facebook.com/profile.php?id=100004996098885" target="_blank" rel="noopener">Facebook</a></p></div></section>
+  <a class="skip" href="#obsah">Přeskočit na obsah</a>
+  <header class="nav">
+    <div class="wrap">
+      <div class="nav-in">
+        <a class="brand" href="/"><span class="logo" aria-hidden="true">i</span> i-school.cz</a>
+        <nav aria-label="Hlavní navigace">
+          <ul>
+            <li><a href="#skoly">Školy</a></li>
+            <li><a href="#firmy">Firmy</a></li>
+            <li><a href="#o-mne">O mně</a></li>
+            <li><a href="#ohlasy">Reference</a></li>
+            <li><a href="/sborovna-sablony/">Pro ředitele</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-coral btn-sm" href="tel:+420724287466">724&nbsp;287&nbsp;466</a>
+      </div>
+    </div>
+  </header>
+  <main id="obsah">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Tomáš Kováč</p>
+          <h1 id="hero-title">Buďte <em>sami sebou</em>: improvizace pomáhá lidem přejít z hlavy k intuici a AI je zrcadlo, ne cíl.</h1>
+          <p class="who">Učitel, lektor a facilitátor. Česko i online.</p>
+          <div class="ctas">
+            <a class="btn btn-coral" href="mailto:tomas@panucitel.cz">tomas@panucitel.cz</a>
+            <a class="btn btn-ghost" href="tel:+420724287466">Zavolat 724&nbsp;287&nbsp;466</a>
+          </div>
+        </div>
+        <img class="hero-photo" src="/sborovna-sablony/tomas.jpg" width="478" height="600" alt="Tomáš Kováč">
+      </div>
+    </section>
+
+    <section id="cesty" aria-labelledby="cesty-title">
+      <div class="wrap">
+        <p class="eyebrow">Rozcestník</p>
+        <h2 id="cesty-title">Dvě cesty</h2>
+        <p class="lead">i-school.cz je osobní stránka Tomáše Kováče. Odtud se dostanete ke školám i k firmám.</p>
+        <div class="paths">
+          <article class="card path path-school" id="skoly">
+            <h3>Školy</h3>
+            <p><strong>AI pro školy a učitele.</strong> Bezpečné a praktické využití umělé inteligence ve výuce, přípravě, hodnocení i každodenní práci školy. Pro pedagogy, vedení i žáky.</p>
+            <div class="dests">
+              <a class="dest" href="/sborovna-sablony/">Pro ředitele: workshop ze šablon OP JAK <span aria-hidden="true">→</span></a>
+              <a class="dest" href="https://sborovna.lovable.app" target="_blank" rel="noopener">Workshop Sborovna jinak <span aria-hidden="true">→</span><span class="sr-only"> (nové okno)</span></a>
+            </div>
+            <p class="detail"><strong>AI gramotnost pro žáky.</strong> Jak se ptát, ověřovat, tvořit a přemýšlet kriticky. Programy pro děti od 4. třídy i pro školní projekty.</p>
+            <p class="detail">Sborovna je prostor pro učitele, školy a sdílení zkušeností. Propojuje praktickou inspiraci, kolegiální učení a chuť zkoušet nové věci bez strachu z chyby. Pro pedagogy, kteří hledají nápady do výuky, bezpečné místo pro otázky a lidi, se kterými mohou sdílet, co funguje.</p>
+          </article>
+          <article class="card path path-firm" id="firmy">
+            <h3>Firmy</h3>
+            <p><strong>AI pro firmy a týmy.</strong> Od prvního použití po smysluplné pracovní postupy. Workshop, mentoring nebo facilitace podle toho, co váš tým skutečně potřebuje.</p>
+            <p><strong>Soft skills a improvizace.</strong> Komunikace, spolupráce, naslouchání, tvořivost a radost z poznávání prostřednictvím divadelní improvizace.</p>
+            <div class="dests">
+              <a class="dest" href="#kontakt">Domluvit workshop <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+        <div class="also">
+          <article class="card">
+            <h3>AI pro veřejnou správu</h3>
+            <p>Srozumitelné workshopy pro úřady a instituce: možnosti, limity, bezpečnost a okamžitě využitelné scénáře.</p>
+          </article>
+          <article class="card">
+            <h3>Moderování a facilitace</h3>
+            <p>Moderování panelů, vedení workshopů a pomoc s formátem, ve kterém se lidé opravdu zapojí.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-mne" aria-labelledby="o-mne-title">
+      <div class="wrap">
+        <p class="eyebrow">O mně</p>
+        <div class="about-top">
+          <h2 id="o-mne-title">Tomáš Kováč</h2>
+          <p>Tomáš Kováč je pedagog, lektor a facilitátor. Školil učitele, firmy i veřejné instituce a dlouhodobě propojuje technologie s dramatickou výchovou.</p>
+          <p>Tomáš vystudoval Pedagogickou fakultu Ostravské univerzity a JAMU. Působil jako učitel na ZŠ Ostrava–Nová Bělá, kde zavedl jednu z prvních výuk s iPady v poměru 1:1. Dnes učí na ZŠ a MŠ KLAS v Pardubicích.</p>
+          <p class="credential">Apple Distinguished Educator a Apple Professional Learning Specialist.</p>
+          <p class="since">Apple Distinguished Educator od roku 2015.</p>
+          <ul class="proof">
+            <li><strong>2023</strong><span>Semifinalista Global Teacher Prize CZ</span></li>
+            <li><strong>stovky</strong><span>proškolených pedagogů a zaměstnanců</span></li>
+          </ul>
+          <a class="btn btn-ghost" href="https://tomas-kovac-hra.nnjm.chatgpt.site" target="_blank" rel="noopener">Medailonek Tomáše Kováče<span class="sr-only"> (nové okno)</span></a>
+        </div>
+        <div class="grid" style="margin-top:28px">
+          <article class="card">
+            <h3>Digitální vzdělávání</h3>
+            <p>Dlouhodobá zkušenost s iPady, Google Workspace a zaváděním digitálních technologií do běžné výuky.</p>
+          </article>
+          <article class="card">
+            <h3>Výzkumné projekty</h3>
+            <p>Věnoval se také tomu, jak mohou děti pomocí technologií a kritického myšlení samostatně rozvíjet čtení a učení.</p>
+          </article>
+          <article class="card">
+            <h3>Praxe učitele</h3>
+            <p>Školení staví na reálném provozu školy a týmu, ne na izolovaném předvádění nástrojů.</p>
+          </article>
+          <article class="card">
+            <h3>Kde jsem působil</h3>
+            <p>Kofola, Česká spořitelna, Veolia, ČSOB, veřejná správa a školy napříč Českem.</p>
+          </article>
+          <article class="card">
+            <h3>Co propojuji</h3>
+            <p>AI ve vzdělávání, kritické myšlení, iPady a digitální nástroje s komunikací a improvizací.</p>
+          </article>
+          <article class="card">
+            <h3>Veřejné výstupy</h3>
+            <p><a href="https://www.panucitel.cz" target="_blank" rel="noopener">panucitel.cz<span class="sr-only"> (nové okno)</span></a><br><a href="https://www.youtube.com/@ischoolostrava" target="_blank" rel="noopener">YouTube iSchool Ostrava<span class="sr-only"> (nové okno)</span></a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ohlasy" aria-labelledby="ohlasy-title">
+      <div class="wrap">
+        <p class="eyebrow">Reference</p>
+        <h2 id="ohlasy-title">Co říkají učitelé po workshopu</h2>
+        <div class="quotes">
+          <figure class="card quote">
+            <blockquote>„Nadšení zařadit impro do hodin, touha provokovat děti a přivést je k řešení konfliktů ve třídě pomocí impra.“</blockquote>
+            <figcaption>Účastník workshopu</figcaption>
+          </figure>
+          <figure class="card quote">
+            <blockquote>„Spoustu nových technik a nápadů, které se dají hned použít s dětmi ve třídě i mimo ni.“</blockquote>
+            <figcaption>ZŠ Vida</figcaption>
+          </figure>
+          <figure class="card quote">
+            <blockquote>„Bylo to na mě rychlé, zároveň jsem díky tomu vymyslela víc zajímavých věcí. Asi mi to pomohlo se víc odvázat a vžít se do role. I když jsem byla zásuvka. Děkuju!“</blockquote>
+            <figcaption>Vendula Dvořáčková, ZŠ Jungmannova Kuřim</figcaption>
+          </figure>
+          <figure class="card quote">
+            <blockquote>„Osobní radost a uvolnění a cestu, jak rozproudit a zapojit děti.“</blockquote>
+            <figcaption>ZŠ Křídlovická, Brno</figcaption>
+          </figure>
+          <figure class="card quote">
+            <blockquote>„Nemít strach, chyby nejsou chyby.“</blockquote>
+            <figcaption>Účastník workshopu</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="spoluprace" aria-labelledby="spoluprace-title">
+      <div class="wrap">
+        <p class="eyebrow">Jak spolupráce probíhá</p>
+        <h2 id="spoluprace-title">Od otázky ke konkrétnímu kroku</h2>
+        <ol class="steps">
+          <li>
+            <h3>Krátký rozhovor</h3>
+            <p>Ujasníme si, koho školíte, co potřebuje a jak poznáte, že workshop pomohl.</p>
+          </li>
+          <li>
+            <h3>Formát na míru</h3>
+            <p>Navrhnu délku, program a míru praktického zkoušení. Od krátké inspirace po sérii setkání.</p>
+          </li>
+          <li>
+            <h3>Výstup do praxe</h3>
+            <p>Účastníci neodcházejí jen s poznámkami, ale s vlastním postupem, materiálem nebo dalším krokem.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="kontakt" class="contact-band" aria-labelledby="kontakt-title">
+      <div class="wrap">
+        <div class="cta">
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="kontakt-title">Máte téma, které chcete posunout?</h2>
+          <p>Napište, zda zastupujete školu, firmu, tým nebo instituci a co byste chtěli změnit. Ozvu se s návrhem dalšího kroku.</p>
+          <div class="ctas">
+            <a class="btn btn-coral" href="mailto:tomas@panucitel.cz?subject=Workshop%20na%20m%C3%ADru">tomas@panucitel.cz</a>
+            <a class="btn btn-ghost" href="tel:+420724287466">724&nbsp;287&nbsp;466</a>
+          </div>
+          <p class="social"><a href="https://www.linkedin.com/in/tomas-kovac" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (nové okno)</span></a> · <a href="https://www.facebook.com/profile.php?id=100004996098885" target="_blank" rel="noopener">Facebook<span class="sr-only"> (nové okno)</span></a></p>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer><div class="wrap">© <span id="year"></span> Tomáš Kováč · i-school.cz · <a href="/sitemap.xml">Mapa webu</a></div></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  <footer>
+    <div class="wrap">
+      <p>© <span id="year">2026</span> Tomáš Kováč · i-school.cz · <a href="/sitemap.xml">Mapa webu</a></p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
 </body>
 </html>
