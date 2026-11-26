@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Add apple-touch-icon
+        run: base64 -d apple-touch-icon.b64 > apple-touch-icon.png && rm apple-touch-icon.b64
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
